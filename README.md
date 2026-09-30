@@ -1,16 +1,28 @@
-# 📊 The Kenya Gender Parity & Empowerment Tracker
+# # Kenya Gender Parity & Empowerment Tracker
 
-An interactive **Streamlit dashboard** analyzing gender equality trends in Kenya across education parity, labor force participation, and political representation.
+A simple dashboard with charts showing Kenya's progress in education, jobs, and government leadership.
 
-## 🚀 Core Indicators
-1. **Primary & Secondary GPI:** School enrollment Gender Parity Index ($1.0 =$ parity).
-2. **Labor Force %:** Female labor force participation rate (ILO estimate).
-3. **Parliament %:** Proportion of seats held by women vs. Kenya's 30% constitutional target.
+## Key Features & Dashboard Tabs
 
-## 🛠️ Tech Stack
-* Python, Streamlit, Pandas, NumPy, Matplotlib, Seaborn , scipy
+* **Primary GPI:** Visualizes the gross school enrollment Gender Parity Index for primary education over time, highlighting progress toward perfect parity (1.0).
+* **Primary vs Secondary:** Compares educational parity trends across education levels, calculating average gaps and identifying milestone years.
+* **Labor Force:** Analyzes modeled International Labour Organization (ILO) estimates for female labor force participation ($\ge 15$ years), featuring dynamic peak and low point detection.
+* **Parliament:** Tracks the proportion of national parliamentary seats held by women against Kenya’s 30% constitutional target.
+* **Latest Values:** Side-by-side bar visualizations comparing most recent indicator metrics across education ratios and participation percentages.
+* **Correlation Heatmap:** Advanced multi-indicator correlation matrix supporting configurable statistical methods (pearson, spearman, kendall), custom colormaps, toggleable cell annotations, and automated strongest relationship highlights.
+* **Export Data:** Responsive tabular data preview with customized multi-indicator filtering and instant one-click CSV export.
 
-## 💻 How to Run Locally
-'''bash
-pip install streamlit pandas numpy matplotlib seaborn
-streamlit run gender.py
+## Core Indicators & Data Sources
+
+The dashboard tracks key developmental metrics sourced from standard international development datasets:
+
+* **School Enrollment (Primary & Secondary GPI):** Gross enrollment ratio gender parity index.
+* **Female Labor Force Participation:** Modeled ILO estimates for women ages 15+ as a percentage of the female population.
+* **Parliamentary Representation:** Proportion of seats held by women in national parliaments.
+
+## Tech Stack
+
+* **Language:** Python
+* **Web Framework:** Streamlit
+* **Data Processing:** Pandas, NumPy
+* **Data Visualization:** Matplotlib, Seaborn
