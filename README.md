@@ -8,7 +8,7 @@ An interactive **Streamlit dashboard** analyzing gender equality trends in Kenya
 3. **Parliament %:** Proportion of seats held by women vs. Kenya's 30% constitutional target.
 
 ## 🛠️ Tech Stack
-* Python, Streamlit, Pandas, NumPy, Matplotlib, Seaborn , spicy
+* Python, Streamlit, Pandas, NumPy, Matplotlib, Seaborn , scipy
 
 ## 💻 How to Run Locally
 '''bash
