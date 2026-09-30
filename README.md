@@ -26,3 +26,5 @@ The dashboard tracks key developmental metrics sourced from standard internation
 * **Web Framework:** Streamlit
 * **Data Processing:** Pandas, NumPy
 * **Data Visualization:** Matplotlib, Seaborn
+
+* http://localhost:8502/
