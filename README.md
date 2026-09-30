@@ -1,4 +1,4 @@
-# # Kenya Gender Parity & Empowerment Tracker
+# Kenya Gender Parity & Empowerment Tracker
 
 A simple dashboard with charts showing Kenya's progress in education, jobs, and government leadership.
 
